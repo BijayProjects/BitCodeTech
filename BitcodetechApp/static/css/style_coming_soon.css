@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url('../images/coming_soon.jpg');
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    display: grid;
+    place-items: center;
+}
+.containermain{
+    padding: 4%;
+    width: 100vh;
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.192);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.253);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+
+h1{
+    font-size: 55.55pt;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+label{
+    font-size: 20px;
+    display: grid;
+    place-items: center;
+    
+
+}
+.get{
+    padding-top: 8%;
+    display: grid;
+    place-items: center;
+}
+.mail-form-controle{
+    padding: 1%;
+    padding-left: 3%;
+    width:max( 22rem);
+    height: 3rem;
+    font-size: 20px;
+    outline: none;
+    color: #ffffff;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 20px ;
+    background: transparent;
+}
+.submit{
+    padding: 1%;
+    width: 8rem;
+    height: 3rem;
+    font-size: 20px;
+    text-align: center;
+    background: rgb(2, 185, 2);
+    outline: none;
+    border: none;
+    border-radius: 20px;
+
+}
